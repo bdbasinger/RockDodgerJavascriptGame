@@ -1,0 +1,28 @@
+{
+  "name": "konami-code-lab",
+  "version": "0.1.0",
+  "description": "Using event listeners, implement the Konami Code on a page",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gem install learn-co",
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/konami-code-lab.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/konami-code-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/konami-code-lab#readme",
+  "devDependencies": {
+    "learn-browser": "^0.1.17"
+  }
+}
